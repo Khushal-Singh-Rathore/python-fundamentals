@@ -13,3 +13,7 @@
 -> __pycache__ is a folder auto created by Python to store compiled bytecode [.pyc files you can say]
 -> .py = source code
 -> .pyc = pre-processed, ready-to-run version
+
+
+* The byte code here is just for python it's not universal machine code. It's only uses by pvm to intrepret the program.
+* Python Virtual Machine is the engine of python which runs .pyc [byte code] and direct .py code also. Just like top level files are not converted to .pyc
