@@ -1,0 +1,15 @@
+1. Is python a interpreted language or compiled language?
+-> In modern way python is a hybrid, because the source code is compled to byte code and then .pyc [byte code] is intrepreted by python vm.
+
+2. How python works?
+
+-> File Code -> Intrepretor (it convert our written code into byte code) -> Byte Code -> Python Virtual Machine ( this is installed with python)
+
+3. Process of working?
+
+-> Compile written code -> Byte Code [it's low level and platform independent, it means it can run on any python vm]
+-> Byte code runs faster
+-> .pyc is compiled python 
+-> __pycache__ is a folder auto created by Python to store compiled bytecode [.pyc files you can say]
+-> .py = source code
+-> .pyc = pre-processed, ready-to-run version
